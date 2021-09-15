@@ -17,7 +17,7 @@ try:
     import requests
     from requests import Response
 except ModuleNotFoundError:
-    print("Nemáš nainstalovaný modul requests - pip install requests")
+    print("Nemáš nainstalovaný modul requests - spusť pip install requests")
     sys.exit(1)
 
 
